@@ -167,11 +167,11 @@
 
 .container { width: 100%; }
 
-.wrapper {
+/* .wrapper {
   width: 86%;
   margin: 0 auto;
   max-width: 1500px;
- }
+ } */
 
 .fas { padding-right: 5px; }
 body { font-family: Arial; }
@@ -285,4 +285,45 @@ header .empowered span {
 }
 .banner a:hover{
   background-color: #D7ED47;
+}
+/* WORKS */
+.works {
+  background-color: #2b2b2b;
+}
+.works h2 {
+  padding-top: 62px;
+  color: #fdfdfd;
+  font-size: 38px;
+  font-weight: 700;
+  text-align: center;
+}
+.works h2 span {
+  color: #c9d74c;
+}
+.works p {
+  padding-top: 20px;
+  color: #c4c4c4;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: -1px;
+  text-align: center;
+}
+
+.works .wireless {
+  padding-top: 35px;
+  position: relative;
+}
+.works .wireless-case img,
+.works .wireless-charging-port img {
+  width: 100%;
+}
+
+.works .wireless-case {
+  width: 55.7%;
+}
+.works .wireless-charging-port {
+  width: 55.7%;
+  position: absolute;
+  top: 36px;
+  right: 0;
 }
