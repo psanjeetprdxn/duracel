@@ -239,3 +239,50 @@ header .empowered {
 header .empowered span {
   color: #c7dc43;
 }
+/* BANNER */
+.banner {
+  background-image: url(../images/top-content-bg.png);
+  background-position: center center;
+  text-align: center;
+}
+.banner .wrapper {
+  width: 72%;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+.banner h2 {
+  padding-top: 26px;
+  color: #f6f6f6;
+  font-size: 36px;
+  font-weight: 700;
+}
+.banner h2 span {
+  color: #d7e949;
+  font-size: 36px;
+  font-weight: 700;
+}
+.banner p {
+  padding-top: 10px;
+  color: #8a8a8a;
+  font-size: 16px;
+  font-weight: 700;
+}
+.banner ul {
+  position: relative;
+  z-index: 1;
+  top: 32px;
+}
+.banner li {
+  width: 33%;
+  border-right: 2px solid #393939;
+  border-bottom: 2px solid #393939;
+  margin-left: -5px;
+  display: inline-block;
+  vertical-align: bottom;
+}
+.banner li a {
+  width: 100%;
+}
+.banner a:hover{
+  background-color: #D7ED47;
+}
