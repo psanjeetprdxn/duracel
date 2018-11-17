@@ -346,3 +346,73 @@ header .empowered span {
   padding: 35px;
   display: inline-block;
 }
+
+/* FOOTER */
+footer {
+  background-color: #000000;
+}
+footer .wrapper {
+  width: 76.36%;
+  margin: 0 auto;
+}
+.png {
+  width: 22%;
+  float: left;
+}
+.png li {
+  width: 48%;
+  padding-right: 25px;
+  display: inline-block;
+}
+.png li img {
+  width: 100%;
+}
+
+.social-links {
+  float: right;
+}
+.social-links li {
+  padding-left: 32px;
+  display: inline-block;
+  color: #575757;
+}
+.special-links li span {
+  font-size: 20px;
+  letter-spacing: -1px;
+  word-spacing: -1px;
+}
+.social-links li:first-child::after {
+  content: ' \00AE';
+}
+
+.footer-top {
+  padding: 35px 0;
+  border-bottom: 1px solid #131313;
+}
+
+.rights {
+  float: left;
+}
+.righs span {
+  color: #383838;
+  font-size: 16px;
+}
+.rights span::before {
+  content: '';
+}
+.policy {
+  float: right;
+}
+.policy li {
+  display: inline-block;
+  color: #755a3c
+}
+.policy a::after {
+  content: '|';
+}
+.policy a:last-child {
+  content: '';
+}
+.policy a {
+  color: #755a3c;
+}
